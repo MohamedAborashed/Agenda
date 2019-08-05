@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:padding="2dp"
+        android:src="@drawable/notepad"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_book_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/tv_Book_Auther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Auther"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
